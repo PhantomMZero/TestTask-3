@@ -38,6 +38,7 @@ private:
 	double fuelMass = 0.5;//0.5kg
 	double getFuelMassDif(double dt);//Функция изменения массы топлива
 	double fThrust = 500; //Н*с
+	double fLift = 50;//H
 	double gr = 45; //degree
 	double rad = gr * 3.14 / 180;
 	double dt = 0.01;
